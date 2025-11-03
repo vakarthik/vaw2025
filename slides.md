@@ -31,9 +31,9 @@ favicon: /favicon.png
 </div>
 
 <!--
-Good Morning!
-CEO, CFO, GM/O&M, respected HODs, friends
-How many of us write passwords on paper ?
+Good Morning! <br/>
+Greetings to Dignitaries <br/>
+Vigilance is not just about corruption or compliance—it’s also about being alert digitally. Today, digital vigilance is our first line of defense.
 -->
 
 ---
@@ -250,7 +250,11 @@ color: cyan-light
 
 
 </div>
-
+<!--
+Eoffice, Intranet, SAP !!<br/>
+1password & dashlane are alternatives <br/>
+explain cons of keepass - no sync and protection of the ddatabase
+-->
 ---
 layout: side-title
 side: l
@@ -269,7 +273,8 @@ align: rt-lt
 # Demo - Bitwarden
 
 <!--
-Explain: Pricing, Sharing Feature, Passsword Generation Feature, URI, Autofill, Explain cons also
+Explain: Pricing, Sharing Feature, Passsword Generation Feature, URI, Autofill 
+<br/>Explain cons - putting all eggs in one basket
 -->
 
 ---
@@ -343,7 +348,7 @@ Losing access to your two-factor authentication (2FA) method can lock you out of
 <img src="/backup-codes.jpg" alt="alt text" width="300"/>
 
 <!--
-Basically one needs proper passwor manager setup and recovery code for password manager written down.
+Basically one needs proper password manager setup and recovery code for password manager written down.
 In addition backup of password used for 2FA app.
 -->
 ---
@@ -420,6 +425,10 @@ color: emerald-light
 - Resolver queries authoritative servers  
 - IP address returned → browser connects
 </div>
+<!--
+oversimplified version. full version in next slide
+-->
+
 ---
 layout: full
 color: emerald-light
@@ -572,6 +581,10 @@ A scam is a scheme meant to cheat people or businesses out of money or personal 
 - Tech support scams
 - AI impersonation scams
 </div>
+<!--
+Actor's wife duped money example <br/>
+Many victim's to digital arrest
+-->
 ---
 layout: top-title
 side: l
@@ -660,9 +673,8 @@ Social Media has become an integral part of our lives. One can understand the en
 - Do not accept friend requests from strangers on social networking sites 
 - Restrict access to your profile. Social media sites offer privacy settings for you to manage who can view your posts, photos, send you friend request etc.
 - Ensure your personal information, photos and videos are accessible only to your trusted ones.
-- Discuss safe internet practices with your friends and family regularly.
-- Monitor your kid’s activity on internet/social media. Enable parental controls on
-computer/mobile devices.
+- **Discuss safe internet practices with your friends and family regularly.**
+- **Monitor your kid’s activity on internet/social media. Enable parental controls on computer/mobile devices.**
 
 <!--
 - Be careful :
@@ -673,9 +685,6 @@ computer/mobile devices.
 - Make your children aware that cyber bullying is a punishable crime so that
 neither do they indulge themselves in cyber bullying nor do they let anyone
 tease them.
-- Even if the children or students know about any friend who is a victim of cyber
-bullying, they should help the victim. Report the matter to parents or teachers
-immediately.
 - Do not delete offensive messages as it will help the police in investigation.
 -->
 
@@ -722,6 +731,33 @@ As all the banking services are shifting towards online platforms, cyber frauds 
 
 <!--
 show a demo in imobile app
+-->
+
+---
+layout: top-title
+side: l
+color: amber-light
+---
+
+:: title ::
+
+# How to protect yourself - AI related Scams
+
+:: content ::
+
+Scammers are using AI to create highly personalised phishing emails, extracting personal details from social media and databases to make their messages more convincing. Use of AI‐generated voice & video (“deepfakes”) to impersonate executives, family members or trusted persons in order to trick victims into transferring money or revealing data.  <a href="https://www.youtube.com/watch?v=7trnfpx0WPE" class="text-s"><mdi-open-in-new /></a>
+
+- The scale and sophistication of AI scams have grown a lot (personalised, real-time, voice/video)
+- The types of scams: phishing, impersonation (voice/video), chatbot engagement, investment/crypto fraud using AI
+- The risks to businesses & individuals: financial loss, data compromise, trust erosion
+- Some recommendations:
+  - Be skeptical of urgent communications from “senior executives” via video/audio
+  - Verify requests via a separate channel (call the known number)
+  - Use strong authentication (hardware keys, MFA) and internal controls for
+  high-value transfers
+
+<!--
+A company worker in Hong Kong was tricked into transferring over US $25 million after being in a video call with AI‐generated impersonations of several executives.
 -->
 
 ---
@@ -783,6 +819,26 @@ color: amber-light
 - **Sancharsathi** (report spam SMS/calls, check registered mobile nos. on your name)  
 - **TRAI DND** registry (check an register for DND)
 
+<!--
+Many people don’t know 1930 or cybercrime.gov.in <br/>
+Emphasize quick reporting = better chance of recovery
+-->
+---
+layout: top-title
+side: l
+color: amber-light
+---
+
+:: title ::
+
+# Cybercrime - Provisions in Law
+
+:: content ::
+
+<img src="/law.png" width="600px"/>
+
+[source](https://supremoamicus.org/wp-content/uploads/2025/09/Rachna-Bilgaiya.pdf)
+
 ---
 layout: section
 color: teal-light
@@ -793,7 +849,8 @@ color: teal-light
 <hr>
 
 <!--
-Privacy is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively
+Privacy is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively<br/>
+Privacy is not about secrecy—it’s about control over your information.
 -->
 ---
 layout: quote
@@ -985,3 +1042,6 @@ Stay Vigilant, Stay Secure 🔒
 <div class="absolute right-15 bottom-15">
 <QRCode value="http://vakarthik.github.io/vaw2025/" :size="150" render-as='svg'/>
 </div>
+<!--
+“Cybersecurity is not a one-time act. It’s a habit—just like vigilance.”
+-->
