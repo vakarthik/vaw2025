@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Welcome to My Presentation on Cybersecurity -Best Practices
 
-To start the slide show:
+Please click [here](https://vakarthik.github.io/vaw2025/) to  start the presentation.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+This presentation was created using awesome [Slidev](https://github.com/slidevjs/slidev) & [neversink](https://gureckis.github.io/slidev-theme-neversink/) theme.
