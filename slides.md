@@ -1,6 +1,7 @@
 ---
 theme: neversink
 title: Cybersecurity - Best Practices
+titleTemplate: '%s - VAW2025'
 class: text-center
 drawings:
   persist: false
@@ -12,6 +13,9 @@ fonts:
   mono: Fira Code
 layout: cover
 color: rose-light
+download: true
+author: V.A.Karthik
+favicon: /favicon.png
 ---
 
 <div class="absolute top-10 right-10 text-right">
@@ -301,7 +305,7 @@ title: Demo - Hardware Keys
 color: cyan-light
 ---
 
-# Demo - 2FA Hardware Keys
+# Demo - 2FA & Hardware Keys
 
 - Recommended TOTP App: [Ente Auth](https://ente.io/auth/) - FOSS, Sync across devices, No lockin
 - Recommended MFA App: [Duo](https://duo.com/)
@@ -338,6 +342,10 @@ Losing access to your two-factor authentication (2FA) method can lock you out of
 
 <img src="/backup-codes.jpg" alt="alt text" width="300"/>
 
+<!--
+Basically one needs proper passwor manager setup and recovery code for password manager written down.
+In addition backup of password used for 2FA app.
+-->
 ---
 layout: side-title
 side: l
@@ -366,6 +374,10 @@ align: rt-lt
 - You an save your generated passkeys in password managers
 - [passkeys.directory](https://passkeys.directory/)
 
+
+<!--
+Use passkeys as password replacement. Better to have second factor setup.
+-->
 ---
 layout: section
 color: emerald-light
@@ -403,10 +415,10 @@ color: emerald-light
 
 ## How DNS Works
 
-1. User enters website URL  
-2. Request sent to DNS resolver  
-3. Resolver queries authoritative servers  
-4. IP address returned → browser connects
+- User enters website URL  
+- Request sent to DNS resolver  
+- Resolver queries authoritative servers  
+- IP address returned → browser connects
 </div>
 ---
 layout: full
@@ -466,11 +478,14 @@ color: emerald-light
 <div v-click>
 
 ## How DNS filtering works
+
 - A user requests a domain (e.g., badsite.com).
 - The DNS filtering service checks that domain against threat categories or allow/block lists.
 - If the domain is flagged (malware, phishing, etc.), the request is blocked.
 - If it’s clean, the DNS query proceeds normally.
+
 </div>
+
 ::right::
 <div v-click>
 
@@ -504,7 +519,8 @@ align: rt-lt
 # Demo - NextDNS
 
 <!--
-Explain: Pricing, Family option, block NRD 
+- Pricing, Family option, block NRD 
+- Some services just work, nextdns is one
 -->
 
 ---
@@ -599,16 +615,12 @@ color: amber-light
 
 Identity theft is the act of wrongfully obtaining someone’s personal information (that defines one’s identity) without their permission. The personal information may include their name, phone number, address, bank account number, Aadhaar number or credit/debit card number etc.
 
-- Do not close the browser window without logging out of the account.
+- **Do not close the browser window without logging out of the account.**
 - Do not save your username and password in the web browser
-- Permanently delete all documents downloaded on computers in cybercafé.
-- Never provide details or copy of identity proofs (e.g. PAN Card, Aadhaar Card,
-Voter Card, Driving License, Address Proof) to unknown person/organization.
-- Do not share sensitive personal information (like Date of Birth, Birth Place,
-Family Details, Address, Phone Number) on public platforms.
-- Always ensure that credit/debit card swipes at shopping malls, petrol pumps,
-etc. are done in your presence. Do not allow the sales person to take your card
-away to swipe for the transaction (to avoid card skimming)
+- Permanently delete all documents downloaded on public computers.
+- Never provide details or copy of identity proofs (e.g. PAN Card, Aadhaar Card, Voter Card, Driving License, Address Proof) to unknown person/organization.
+- Do not share sensitive personal information (like Date of Birth, Birth Place, Family Details, Address, Phone Number) on public platforms.
+- Always ensure that credit/debit card swipes at shopping malls, petrol pumps, etc. are done in your presence. Do not allow the sales person to take your card away to swipe for the transaction (to avoid card skimming)
 
 ---
 layout: top-title
@@ -625,17 +637,11 @@ color: amber-light
 Attackers play with the minds of the user to trap them with lucrative
 offers. Once trapped, the attackers can exploit the victim by either stealing money or stealing sensitive personal information (name, Aadhaar details, bank account details etc.) or harm the victim in any other way. The entire basis of this kind of attack is to make the victim fall into their trap by sending fake e-mails, calls or SMSs
 
-- Always verify the correctness of the domain of the e-mail ID, for example, all
-government websites have “.gov.in” or “.nic.in” as part of their web address.
-- Do not respond to messages from unknown source requesting personal or
-financial details even if it assures credit of money into your bank account.
-- Do not get petrified if you receive a call stating that your card is blocked. Bank
-will never convey such information on call.
-- Do not share your PIN, password, card number, CVV number, OTP etc. with any
-stranger, even if he/she claims to be bank employee. Bank will never ask for any
-vital information.
-- Keep your bank’s customer care number handy so that you can report any
-suspicious or un-authorized transactions on your account immediately.
+- Always verify the correctness of the domain of the e-mail ID, for example, all government websites have “.gov.in” or “.nic.in” as part of their web address.
+- Do not respond to messages from unknown source requesting personal or financial details even if it assures credit of money into your bank account.
+- Do not get petrified if you receive a call stating that your card is blocked. Bank will never convey such information on call.
+- **Do not share your PIN, password, card number, CVV number, OTP etc. with any stranger, even if he/she claims to be bank employee. Bank will never ask for any vital information.**
+- Keep your bank’s customer care number handy so that you can report any suspicious or un-authorized transactions on your account immediately.
 
 ---
 layout: top-title
@@ -652,10 +658,8 @@ color: amber-light
 Social Media has become an integral part of our lives. One can understand the entire history of an individual through their social media profile and can even predict future events based on patterns in the past. This poses a threat to an individual as unwanted access to social media profile can cause loss of information, defamation or even worse consequences such as physical/sexual assault, robbery etc. Hence, protection and appropriate use of social media profile is very important.
 
 - Do not accept friend requests from strangers on social networking sites 
-- Restrict access to your profile. Social media sites offer privacy settings for you
-to manage who can view your posts, photos, send you friend request etc.
-- Ensure your personal information, photos and videos are accessible only to
-your trusted ones.
+- Restrict access to your profile. Social media sites offer privacy settings for you to manage who can view your posts, photos, send you friend request etc.
+- Ensure your personal information, photos and videos are accessible only to your trusted ones.
 - Discuss safe internet practices with your friends and family regularly.
 - Monitor your kid’s activity on internet/social media. Enable parental controls on
 computer/mobile devices.
@@ -689,14 +693,13 @@ color: amber-light
 
 Mobile applications are widely used not only for entertainment but also for ease and convenience to perform day-to-day tasks such as bill payments, bank accounts management, service delivery etc. As a result, these applications are more prone to cyber-attacks
 
-- Always install mobile applications from official application stores or trusted
-sources.
-- Scrutinize all permission requests thoroughly, especially those involving
-privileged access, when installing/using mobile applications.
-For example, a photo application may not need microphone access.
-- Regularly update software and mobile applications to ensure there are no
-security gaps.
+- **Always install mobile applications from official application stores or trusted sources**.
+- Scrutinize all permission requests thoroughly, especially those involving privileged access, when installing/using mobile applications. For example, a photo application may not need microphone access.
+- Regularly update software and mobile applications to ensure there are no security gaps.
 
+<!--
+use virustotal for scanning mobile apps
+-->
 ---
 layout: top-title
 side: l
@@ -711,14 +714,15 @@ color: amber-light
 
 As all the banking services are shifting towards online platforms, cyber frauds related to banking are also increasing.
 
-- Register your personal phone number and e-mail with your bank and subscribe
-to notifications. These notifications will quickly alert you on any transaction and
-the unsuccessful login attempts to your net-banking account
-- Always review transaction alert received on your registered mobile number and
-reconcile with the amount of your purchase.
+- Register your personal phone number and e-mail with your bank and subscribe to notifications. These notifications will quickly alert you on any transaction and the unsuccessful login attempts to your net-banking account.
+- Always review transaction alert received on your registered mobile number and reconcile with the amount of your purchase.
 - Do not save your usernames and passwords in the web browser. Use Password Managers!
 - Always be sure about the correct address of the bank website and look for the ‘‘lock’’ icon on the browser’s status bar while visiting your bank’s website or conducting an online transaction. Always be sure ‘‘https’’ appears in the website’s address bar before making an online transaction. The ‘‘s’’ stands for ‘‘secure’’ and indicates that the communication with the webpage is encrypted.
-- Disable international transaction option on your credit card
+- **Disable international transaction option on your credit card & enforce per transaction limits**
+
+<!--
+show a demo in imobile app
+-->
 
 ---
 layout: top-title
@@ -732,32 +736,30 @@ color: amber-light
 
 :: content ::
 
-- Always download software or applications from known trusted sources only. Never use pirated software on your systems/devices.
+- Always download software or applications from known trusted sources only. **Never use pirated software on your systems/devices.**
 - Always change the default admin password on your Wi-Fi router to a strong password known only to you. In addition, always configure your wireless network to use the latest encryption.
 - Be cautions while browsing through a public Wi-Fi and avoid logging in to personal &
 professional accounts such as e-mail or banking on these networks. 
 - Always use virtual keyboard to access net-banking facility from public computers; and logout from banking portal/website after completion of online transaction.
-- Note the IMEI code of your cell phone and keep it in a safe place. The operator can blacklist/block/trace a phone using the IMEI code, in case the cell phone is stolen.
-- Discuss safe internet practices with your friends and family regularly! Motivate them to learn more about cybercrimes and safe cyber practices.
-- Do not store unencrypted data on cloud services
+- **Note the IMEI code of your cell phone and keep it in a safe place. The operator can blacklist /block / trace a phone using the IMEI code, in case the cell phone is stolen.**
+- **Discuss safe internet practices with your friends and family regularly! Motivate them to learn more about cybercrimes and safe cyber practices.**
+- **Do not store unencrypted data on cloud services**
+
+<!--
+
 - Do not post photos which contain exif information
 - UPI PIN is not needed while receiving payments
 
-<!--
-## 3.3 Doosra Number
+Doosra Number
 - Virtual number service for registrations  
 - Protects primary number from spam
 
-## 3.4 Fake Data
+Fake Data
 - Don’t share real DOB / name everywhere  
 - Use fake info for non-critical signups
 
-## 3.5 Aadhar Virtual Number
+Aadhar Virtual Number
 - Use Virtual ID (VID) instead of Aadhaar number
-
-## 3.6 Do Not Fall for Traps
-- Beware: free loans, gifts, lotteries
-
 -->
 
 ---
@@ -779,7 +781,7 @@ color: amber-light
 ## Government Apps
 
 - **Sancharsathi** (report spam SMS/calls, check registered mobile nos. on your name)  
-- **TRAI DND** registry
+- **TRAI DND** registry (check an register for DND)
 
 ---
 layout: section
@@ -790,6 +792,9 @@ color: teal-light
 
 <hr>
 
+<!--
+Privacy is the ability of an individual or group to seclude themselves or information about themselves, and thereby express themselves selectively
+-->
 ---
 layout: quote
 color: teal-light
@@ -876,12 +881,15 @@ color: teal-light
 ## Social Media Alternatives
 - **Fediverse** (Mastodon, Lemmy, Pixelfed)
 
-## Chat Alternatives
-- Signal, Matrix, Element
+## 💬 Chat Alternatives
+- Signal, Matrix
 
-## Privacy Guides
+## More Here 👇
 🌐 [privacyguides.org](https://privacyguides.org)
 </div>
+<!--
+The Fediverse is a collection of interconnected social media platforms that can communicate with each other using a common protocol called ActivityPub
+-->
 
 ---
 layout: side-title
@@ -900,13 +908,13 @@ align: rt-lt
 :: content ::
 <div v-click>
 
-## It's OK to be Bored <a href="https://www.youtube.com/watch?v=orQKfIXMiA8"><mdi-open-in-new /></a>
+## It's OK to be Bored 😒 <a href="https://www.youtube.com/watch?v=orQKfIXMiA8"><mdi-open-in-new /></a>
 - Constant stimulation = digital fatigue  
 - Allow downtime for mental health
 </div>
 <div v-click>
 
-## Some Tips
+## 📝 Some Tips
 - Turn Off Notifications
 - Keep Mobile Phone Out of Reach
 - Limit Screen Time
@@ -973,3 +981,7 @@ color: indigo-light
 # Thank You!
 <hr />
 Stay Vigilant, Stay Secure 🔒
+
+<div class="absolute right-15 bottom-15">
+<QRCode value="http://vakarthik.github.io/vaw2025/" :size="150" render-as='svg'/>
+</div>
